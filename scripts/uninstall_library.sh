@@ -32,7 +32,7 @@ HA_CONFIG=$(find_ha_config) || {
 }
 
 LIBRARY_DIR="$HA_CONFIG/$REPO_NAME"
-MODULE_TARGET="$HA_CONFIG/pyscript/modules"
+MODULE_TARGET="$HA_CONFIG/pyscript/modules/dezito_pyscript"
 MANIFEST_FILE="$HA_CONFIG/.pyscript_shared_library_manifest"
 
 if [ -f "$MANIFEST_FILE" ]; then
