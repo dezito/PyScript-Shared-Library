@@ -33,7 +33,7 @@ MANIFEST_FILE="$HA_CONFIG/.pyscript_shared_library_manifest"
 
 if [ ! -d "$MODULE_SOURCE" ]; then
   echo "Missing library directory: $MODULE_SOURCE"
-  echo "Run update_shared_library.sh first."
+  echo "Run update_library.sh first."
   exit 1
 fi
 
